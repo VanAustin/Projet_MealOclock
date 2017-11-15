@@ -1,0 +1,9 @@
+; Modèle de fichier de config :
+; dupliquez, adaptez et renommez ce fichier en config.conf
+
+BASE_PATH = "/""
+
+dbhost = ''
+dbname = ''
+dbuser = ''
+dbpass = ''

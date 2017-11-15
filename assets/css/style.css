@@ -1,0 +1,319 @@
+html
+{
+	background-color: #F3F3F3;
+}
+
+  body {
+      font-family: 'Miriam Libre', sans-serif;
+      line-height: 2.5;
+      color: grey;
+	  background-color: #F3F3F3;
+  }
+  main{
+
+  }
+  p { font-size: 16px;}
+  a { color: #555753;
+	  text-decoration: none;}
+
+/*********************************MAIN ACCUEIL*********************************/
+
+#logo{
+	width: 11em;
+}
+
+  .bg-3 {
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+footer {
+	float: left;
+	color: #555555;
+  }
+
+  .container-fluid {
+      padding-top: 2px;
+      padding-bottom: 2px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+
+
+#top{
+	border-top: 30px solid #f1484B;
+}
+
+.nav2,.nav1
+{
+	border: solid 1px #555753;
+	border-top: none;
+	height: 65px;
+	color: #555753;
+	text-align: center;
+	padding-top: 15px;
+}
+
+#miniatures {
+	background: linear-gradient(to right, MediumSeaGreen, YellowGreen);
+  margin: 5% 15%;
+  border-top: 20px solid #f1484B;
+  p
+}
+
+.col-lg-4{
+	width: 500px;
+	height: 500px;
+}
+
+#commu
+{
+	text-align: center;
+	box-sizing: padding-box;
+}
+
+
+.container-fluid-pic
+{
+	align-items: center;
+	overflow: hidden;
+	height: 400px;
+	width: 350px;
+}
+
+
+.pic_commu{
+	margin: auto;
+	padding-top: 10%;
+	padding-left: 120px;
+}
+
+
+/****************************FORMULAIRE INSCRIPTION****************************/
+
+
+#signup{
+	margin-top: 5%;
+	color: #555753;
+	border-top: 20px solid #f1484B;
+	margin-left: 18%;
+	margin-right: 20%;
+	background-color: white;
+}
+
+.form-control{
+	border: none;
+	border-bottom: solid 1px grey;
+	background-color: transparent;
+}
+.relogin a
+{
+	color: red;
+}
+/********************************CONNEXION*************************************/
+#login
+{
+	margin-top: 5%;
+	color: #555753;
+	border-top: 20px solid #f1484B;
+	margin-left: 30%;
+	margin-right: 30%;
+	background-color: white;
+}
+.resignup a
+{
+	color: #f1484B;
+}
+
+.connect{
+	background: #f1484B;
+}
+
+#login h2
+{
+	font-size: 3em;
+}
+
+.control-label
+{
+	text-align: right;
+}
+
+
+/***********************************MEMBRE PROFIL******************************/
+
+.container{
+	margin-top: 5%;
+	margin-left: 35%;
+	color: #555753;
+}
+
+#membre{
+	background: #f1484B;
+}
+#profile-image1 {
+    width: 100px;
+    height: 100px;
+	border:2px solid #f1484B ;
+}
+
+.tital{ font-size:16px; font-weight:500;}
+.bot-border{ border-bottom:1px #f8f8f8 solid;  margin:5px 0  5px 0}
+
+
+
+.subtitle{
+	background: #f1484B;
+	color:ewhite;
+}
+
+.bio{
+	text-align:justify;;
+}
+
+#hang{
+	display: block;
+	width: 3.5em;
+	margin-top: 4%;
+	color: #555753;
+}
+
+.icons
+{
+	margin-top: 2%;
+}
+/******************************Page Communauté*********************************/
+/*couleur du background de la page communauté avec texte en noir et bordure en bas en noir.*/
+#page_communaute {
+	background: linear-gradient(to right, MediumSeaGreen, YellowGreen);
+	color: black;
+	border-bottom: 1px solid black;
+}
+
+/*Titre en majuscule avec un animation qui le fait apparaitre de l'arriève plan vers le 1er plan*/
+#titre {
+	text-transform: uppercase;
+	padding: 10px;
+	text-align: center;
+	animation-duration: 2s;
+}
+
+/*utilisation du flex pour le positionnement des différents blocs + un border sur le haut de la div*/
+#presentation {
+	display: flex;
+	flex-direction: row;
+	border-top: 1px solid black;
+}
+
+/*Changement de couleurs de fond avec leger dégradé sur l'ensemble des div inclut dans la div presentation. cela crée un petit contrast entre le titre et le contenu de la page communauté.*/
+#presentation_left,#presentation_center,#presentation_right {
+	width: 50%;
+	background: linear-gradient(to bottom, #f1484B, #ED764B);
+	padding: 50px;
+	text-align: center;
+}
+
+/*j'aligne le texte de présentation de la communauté à gauche*/
+#presentation_left p{
+	text-align: left;
+	padding-top: 20px;
+}
+
+/*Image entouré d'une legere bordure noir*/
+#presentation_left img {
+	border: 1px solid black;
+}
+
+/*definition de la hauteur des div centrales, et ajout animation effet slidein*/
+#lastblogmsg {
+	height: 50%;
+	animation-duration: 2s;
+}
+
+/*ajout effet slidein*/
+#events_list {
+	animation-duration: 2s;
+}
+
+/*ajout effet slidein*/
+#members_list {
+	animation-duration: 2s;
+}
+
+/*delimitation des titres des div de la page communauté et changement de la couleur en noir*/
+ hr {
+	border-top: 1px solid black;
+ }
+
+/********************************** ADD RECETTE****************************************************/
+
+#addrecette{
+	margin-top: 5%;
+	color: #555753;
+	border-top: 20px solid #f1484B;
+	margin-left: 40%;
+	margin-right: 30%;
+	background-color: white;
+}
+#addrecette h2
+{
+	padding-bottom: 10px;
+}
+
+.form-control{
+	border: none;
+	border-bottom: solid 1px grey;
+	background-color: transparent;
+	padding: 10px;
+	text-align: center;
+}
+#recettepower
+{
+	padding: 20px;
+}
+/*********************************************A TABLE*******************************************************/
+.area {
+  box-shadow: 0 0 15px #ccc;
+  background: white;
+  padding: 0 20px 20px;
+}
+.area h3 {
+  border-bottom: 3px solid #ED764B;
+}
+
+#atable
+{
+	margin: 100px;
+}
+
+#cadre {
+	display: flex;
+	background-color: #BABDB6;
+	color: black;
+}
+
+#recettes{
+	margin-top: 100px;
+	padding-left: 25px;
+
+}
+
+#burger{
+	margin-top: 100px;
+	width: 450px;
+	height: 450px;
+}
+
+#ingredients {
+	margin-top: 100px;
+}
